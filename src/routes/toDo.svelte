@@ -5,7 +5,7 @@
 <Header />
 <div class="col-md-7 d-flex align-items-stretch">
     <div class="contact-wrap w-100 p-md-5 p-4">
-    <h3 class="mb-4">Ajouter un To Do</h3>
+    <h3 class="mb-4" style="color:blue">Ajouter un To Do</h3>
     <div id="form-message-warning" class="mb-4"></div>
     <div id="form-message-success" class="mb-4">
     Your message was sent, thank you!
@@ -14,7 +14,11 @@
     <div class="row">
     <div class="col-md-6">
     <div class="form-group">
-    <input type="text" class="form-control" name="Nom" id="name" placeholder="Nom">
+    <!-- <input type="" class="form-control" name="Nom" id="name" placeholder="Nom"> -->
+    <select class="form-control">
+      <option>Height Priority</option>
+      <option>Low Priority</option>
+    </select>
     </div>
     </div>
 
@@ -22,7 +26,8 @@
 
     <div class="col-md-6">
     <div class="form-group">
-    <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+    <input type="checkbox" class="form-control" name="email" id="email" checked>
+
     </div>
     </div>
 
