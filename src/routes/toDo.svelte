@@ -1,8 +1,8 @@
 <script>
     import Header from "./header.svelte";
     let toDoList=[];
-    let description;
-    let name;
+    let description="";
+    let name="";
     let priority;
     let done=true;
 
@@ -233,5 +233,11 @@
   text-align: left;
   background-color: #04AA6D;
   color: white;
+}
+
+#todo{
+  margin-top: 20px;
+  width: 90%;
+  margin-left: 4%;
 }
 </style>
