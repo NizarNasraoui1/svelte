@@ -4,7 +4,7 @@
     let description;
     let name;
     let priority;
-    let done;
+    let done=true;
 
     const addToDo=()=>{
       console.log(done)
@@ -63,7 +63,7 @@
 
     <div class="col-md-6">
     <div class="form-group">
-    <input type="checkbox" class="form-control"  bind:value={done}>
+    <input type="checkbox" class="form-control"   bind:checked={done}>
     </div>
     </div>
 
